@@ -9,7 +9,7 @@ const webpackDemoConfig = merge(webpackDevConfig, {
     entry: path.resolve(config.srcPath, 'index.js'),
     output: {
         filename: 'index.js',
-        path: path.resolve(config.basePath, './doc'),
+        path: path.resolve(config.basePath, './docs'),
         publicPath: '/'
     },
 
