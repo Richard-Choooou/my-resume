@@ -5,11 +5,11 @@
 * 周鹏 / 男 / 1995
 * 专科 / 湖南信息职业技术学院（软件技术专业）
 * 工作年限：2年
+* 在线简历(gitpage): [http://www.zhouziwu.com](http://www.zhouziwu.com)
 * 技术博客(gitpage)：[http://www.zpblogs.com/myBlogs/](http://www.zpblogs.com/myBlogs/)
 * Github: [https://github.com/Richard-Choooou](https://github.com/Richard-Choooou)
 * 期望职位：web前端中高级程序员
-* 当前薪资：税前11K（武汉）
-* 期望薪资：税前月薪13K（武汉）16K（北上广深）
+* 期望薪资：税前月薪14K（武汉）16K（北上广深）
 * 当前所在城市： 武汉
 * 期望城市：武汉
 
