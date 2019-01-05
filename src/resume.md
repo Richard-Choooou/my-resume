@@ -13,14 +13,19 @@
 * 当前所在城市： 武汉
 * 期望城市：武汉
 
+---
+
 # 联系方式
 * 手机：13120665335
 * Email: 2264746084@qq.com
 * 微信：13120665335（子物）
 
+---
 
 # 自我评价
 虽然工作时间不长，但是过往的工作经历以及平时自我学习使我的技能得到了磨炼。能够独立承担起WEB前端项目的构建，熟练使用**js（ES6）**、**css(scss)**、**html(5)** 等基本技能进行项目开发，使用 **webpack** **gulp**等构建工具提升项目的开发效率以及性能优化。熟悉 **VUE** 技术栈，能够将前端项目的规范与性能再提升一个档次。同时对于其它技术栈也有探索与实践，可根据不同业务需求进行多方位的技术选型。爱好开源，有自己的开源项目，且曾经给element-ui提交过PR。
+
+---
 
 # 工作经历
 
@@ -50,11 +55,13 @@ E100商城的后台管理系统，用于管理门店信息、用户信息、车�
 我主要负责项目维护以及二次开发。
 
 ### 华为人机功效评估系统
-该系统为华为内部项目，主要用于对于微型基站安装时安装难易度，以及对于环境影响的评估，分为**人机评估**、**环境评估**、**竞争分析**、**文档查询**以及**设计反推**等模块，使用jquery完成开发。
+该系统为华为内部项目，主要用于对于微型基站安装时安装难易度，以及对于环境影响的评估，分为**人机评估**、**环境评估**、**竞争分析**、**文档查询**以及 **设计反推** 等模块，使用jquery完成开发。
 
 其中人机及环境评估主要功能为，根据用户输入的安装选项，后台通过算法的到评分返回给前端，前端对评分进行数据可视化展示，主要用到了eCharts库。
 
 我主要负责环境及人机评估模块的开发。
+
+---
 
 # 开源项目
 
@@ -64,33 +71,33 @@ E100商城的后台管理系统，用于管理门店信息、用户信息、车�
 地址[https://github.com/Richard-Choooou/image-compress](https://github.com/Richard-Choooou/image-compress)
 
 ## 多玩囧图个人版（微信小程序） 
-线上项目，可搜索体验
-地址[https://github.com/Richard-Choooou/duowanImageBase-Vue](https://github.com/Richard-Choooou/duowanImageBase-Vue)
+线上项目，可搜索体验，平均每月1200累计访问人数。
+地址[https://github.com/Richard-Choooou/duowanImageBase-WXMircoApp](https://github.com/Richard-Choooou/duowanImageBase-WXMircoApp)
 
 ## NPM库
 ### sticky-list-headers
-一个滚动列表导航吸顶的一个库
+一个滚动列表导航吸顶的工具库
 
 地址[https://www.npmjs.com/package/sticky-list-headers](https://www.npmjs.com/package/sticky-list-headers)
 
 ### best-calendar
-一个封装日历算法的库，使用此库可以很方便的得到日历数据,随意定制日历
+一个封装日历算法的工具库，使用此库可以很方便的得到日历数据,随意定制日历
 
 地址[https://www.npmjs.com/package/best-calendar](https://www.npmjs.com/package/best-calendar)
 
 ### drag-area
-一个可拖拽定位区域的库，类似于淘宝后台的活动页面定制功能
+一个可拖拽定位区域的工具库，类似于淘宝后台的页面定制功能
 
 地址[https://www.npmjs.com/package/drag-area](https://www.npmjs.com/package/drag-area)
 
 
-# 公司内部技术分享相关讲义
+# 公司技术分享相关讲义
 
-森果内部分享：webpack配置从0到1，[点击查看](http://www.zpblogs.com/myBlogs/2018/10/08/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Awebpack%E9%85%8D%E7%BD%AE%E4%BB%8E0%E5%88%B01/#more)
+webpack配置从0到1，[点击查看](http://www.zpblogs.com/myBlogs/2018/10/08/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Awebpack%E9%85%8D%E7%BD%AE%E4%BB%8E0%E5%88%B01/#more)
 
-森果内部分享：promise与async[点击查看](http://www.zpblogs.com/myBlogs/2018/09/26/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Apromise%E4%B8%8Easync/)
+es6: promise与async[点击查看](http://www.zpblogs.com/myBlogs/2018/09/26/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Apromise%E4%B8%8Easync/)
 
-森果内部分享：Proxy与Reflect,[点击查看](http://www.zpblogs.com/myBlogs/2018/09/26/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9AProxy%E4%B8%8EReflect/#more)
+es6: Proxy[点击查看](http://www.zpblogs.com/myBlogs/2018/09/26/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9AProxy%E4%B8%8EReflect/#more)
 
-森果内部分享：set和map集集合[点击查看](http://www.zpblogs.com/myBlogs/2018/09/25/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Aset%E5%92%8Cmap%E9%9B%86%E9%9B%86%E5%90%88/)
+es6: set和map集集合[点击查看](http://www.zpblogs.com/myBlogs/2018/09/25/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Aset%E5%92%8Cmap%E9%9B%86%E9%9B%86%E5%90%88/)
 

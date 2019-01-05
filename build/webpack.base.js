@@ -22,6 +22,15 @@ module.exports = {
             test: /\.js$/,
             loader: 'babel-loader'
         }, {
+            test: /\.(sc|c)ss$/,
+            use: [{
+                loader: 'style-loader'
+            }, {
+                loader: 'css-loader'
+            }, {
+                loader: 'sass-loader'
+            }]
+        }, {
             test: /\.(png|jpg|gif|svg)$/,
             use: [{
                 loader: 'url-loader',
@@ -48,6 +57,19 @@ module.exports = {
                     useRelativePath:true
                 }
             }]
+        }, {
+            test: /\.md$/,
+            use: [
+                {
+                    loader: "html-loader"
+                },
+                {
+                    loader: "markdown-loader",
+                    options: {
+                        /* your options here */
+                    }
+                }
+            ]
         }]
     },
     plugins: [

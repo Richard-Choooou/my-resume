@@ -8,16 +8,7 @@ const config = require('./config')
 
 module.exports = merge(webpackBaseConfig, {
     module: {
-        rules: [{
-            test: /\.(sc|c)ss$/,
-            use: [{
-                loader: 'style-loader'
-            }, {
-                loader: 'css-loader'
-            }, {
-                loader: 'sass-loader'
-            }]
-        }]
+        rules: []
     },
     devServer: {
         host: '0.0.0.0',
