@@ -3,12 +3,13 @@ const merge = require('webpack-merge')
 const webpackDevConfig = require('./webpack.dev')
 const config = require('./config')
 const htmlWebpackPlugin = require('html-webpack-plugin')
+const WebpackMarkdownToPdfPlugin = require('webpack-markdown-pdf-plugin')
 
 
 const webpackDemoConfig = merge(webpackDevConfig, {
     entry: path.resolve(config.srcPath, 'index.js'),
     output: {
-        filename: 'index.js',
+        filename: 'js/index.js',
         path: path.resolve(config.basePath, './docs'),
         publicPath: './'
     },
@@ -24,6 +25,9 @@ const webpackDemoConfig = merge(webpackDevConfig, {
         new htmlWebpackPlugin({
             template: path.join(config.srcPath, 'index.html'),
             inject: 'body'
+        }),
+        new WebpackMarkdownToPdfPlugin({
+            filename: './pdf/[name].pdf',
         })
     ]
 })

@@ -72,9 +72,18 @@ E100商城的后台管理系统，用于管理门店信息、用户信息、车�
 
 ## 多玩囧图个人版（微信小程序） 
 线上项目，可搜索体验，平均每月1200累计访问人数。
+
+扫码体验
+
+![gh_ec2f445d137e_258](https://user-images.githubusercontent.com/23492006/50738344-d0e42c00-120d-11e9-9838-f4c583b2b27e.jpg)
+
 地址[https://github.com/Richard-Choooou/duowanImageBase-WXMircoApp](https://github.com/Richard-Choooou/duowanImageBase-WXMircoApp)
 
 ## NPM库
+### webpack-markdown-pdf-plugin
+一个将markdown文件转换为pdf的webpack plugin
+
+地址[https://www.npmjs.com/package/webpack-markdown-pdf-plugin](https://www.npmjs.com/package/webpack-markdown-pdf-plugin)
 ### sticky-list-headers
 一个滚动列表导航吸顶的工具库
 

@@ -3,9 +3,8 @@ const config  = require('./config')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const ENV = process.env.NODE_ENV
 
-
 module.exports = {
-    entry: path.resolve(config.basePath, './src/index.js'),
+    entry: path.resolve(config.basePath, 'src/index.js'),
 
     resolve: {
         extensions: [".js", ".json"],
@@ -62,8 +61,7 @@ module.exports = {
             use: [
                 {
                     loader: "html-loader"
-                },
-                {
+                }, {
                     loader: "markdown-loader",
                     options: {
                         /* your options here */
