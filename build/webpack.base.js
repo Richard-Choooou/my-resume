@@ -30,20 +30,15 @@ module.exports = {
                 loader: 'sass-loader'
             }]
         }, {
-            test: /\.(png|jpg|gif|svg)$/,
+            test: /\.(png|jpg|gif)$/,
             use: [{
                 loader: 'url-loader',
                 options: {
-                    limit: 8920
-                }
-            }, {
-                loader: 'file-loader',
-                options: {
-                    name: ENV == 'product' ? '[name].[hash].[ext]' : '[name].[ext]',
+                    limit: 8920,
+                    fallback: 'file-loader',
                     outputPath: './images'
                 }
-            }
-        ]
+            }]
         }, {
             test:/\.(eot|woff2|woff|ttf|svg)/,
             use:[{

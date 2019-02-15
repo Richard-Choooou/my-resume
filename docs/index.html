@@ -13,10 +13,87 @@
             margin: 0 auto;
         }
     </style>
+    <style>
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transform: rotate(-45deg) scale(2.2);
+            z-index: 1;
+        }
+
+        .left {
+            height: 50%;
+            background: linear-gradient(to bottom, #28cc82, #0093a2);
+        }
+
+        .loding-svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%, -50%, 0) scale(.7);
+            z-index: 2;
+        }
+
+        .right {
+            margin-top: -1px;
+            height: 50%;
+            background: linear-gradient(to bottom, #0093a2, #0075d2);
+            transform: translateY(0);
+        }
+
+        .to-top {
+            animation: to-top .7s ease-in forwards;
+        }
+
+        .to-bottom {
+            animation: to-bottom .7s ease-in forwards;
+        }
+
+        @keyframes to-top {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(-100%);
+            }
+        }
+
+        @keyframes to-bottom {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(100%);
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="markdown-container markdown-body" id="markdownContainer">
-
+    <div class="bg" id="bg">
+        <div class="left" id="left"></div>
+        <img class="loding-svg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSJ3aGl0ZSI+CiAgPHBhdGggb3BhY2l0eT0iLjI1IiBkPSJNMTYgMCBBMTYgMTYgMCAwIDAgMTYgMzIgQTE2IDE2IDAgMCAwIDE2IDAgTTE2IDQgQTEyIDEyIDAgMCAxIDE2IDI4IEExMiAxMiAwIDAgMSAxNiA0Ii8+CiAgPHBhdGggZD0iTTE2IDAgQTE2IDE2IDAgMCAxIDMyIDE2IEwyOCAxNiBBMTIgMTIgMCAwIDAgMTYgNHoiPgogICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGZyb209IjAgMTYgMTYiIHRvPSIzNjAgMTYgMTYiIGR1cj0iMC44cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+CiAgPC9wYXRoPgo8L3N2Zz4K" alt="">
+        <div class="right" id="right"></div>
     </div>
+    <div class="markdown-container markdown-body" id="markdownContainer"></div>
+    <script>
+        Promise.all([new Promise((resolve, reject) => {
+            window.onload = resolve
+        }),
+        new Promise((resolve, reject) => {
+            setTimeout(resolve, 1000)
+        })]).then(() => {
+            left.classList.add('to-top')
+            right.classList.add('to-bottom')
+            setTimeout(() => {
+                bg.remove()
+            }, 800)
+        })
+    </script>
+    
 <script type="text/javascript" src="./js/index.js"></script></body>
 </html>
