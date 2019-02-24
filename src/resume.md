@@ -8,8 +8,8 @@
 * 在线简历(gitpage): [http://www.zhouziwu.com](http://www.zhouziwu.com)
 * 技术博客(gitpage)：[http://www.zpblogs.com/myBlogs/](http://www.zpblogs.com/myBlogs/)
 * Github: [https://github.com/Richard-Choooou](https://github.com/Richard-Choooou)
-* 期望职位：web前端中高级程序员
-* 期望薪资：税前月薪14K（武汉）16K（北上广深）
+* 期望职位：web前端高级工程师
+* 期望薪资：税前月薪14K（武汉）18K（北上广深）
 * 当前所在城市： 武汉
 * 期望城市：武汉
 
