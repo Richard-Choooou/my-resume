@@ -9,20 +9,21 @@
 * 技术博客(gitpage)：[http://www.zpblogs.com/myBlogs/](http://www.zpblogs.com/myBlogs/)
 * Github: [https://github.com/Richard-Choooou](https://github.com/Richard-Choooou)
 * 期望职位：web前端高级工程师
-* 期望薪资：税前月薪14K（武汉）18K（北上广深）
 * 当前所在城市： 武汉
 * 期望城市：武汉
 
 ---
 
 # 联系方式
+* 电话：13120665335
 * Email: 2264746084@qq.com
 * 微信：zpIsBest（子物）
+
 
 ---
 
 # 自我评价
-虽然工作时间不长，但是过往的工作经历以及平时自我学习使我的技能得到了磨炼。能够独立承担起WEB前端项目的构建，熟练使用**js（ES6）**、**css(scss)**、**html(5)** 等基本技能进行项目开发，使用 **webpack** **gulp**等构建工具提升项目的开发效率以及性能优化。熟悉 **VUE** 技术栈，能够将前端项目的规范与性能再提升一个档次。同时对于其它技术栈也有探索与实践，可根据不同业务需求进行多方位的技术选型。爱好开源，有自己的开源项目，且曾经给element-ui提交过PR。
+虽然工作时间不长，但是过往的工作经历以及平时自我学习使我的技能得到了磨炼。能够独立承担起WEB前端项目的构建，熟练使用**js（ES6）**、**css(scss)**、**html(5)** 等基本技能进行项目开发，使用 **webpack** **gulp**等构建工具提升项目的开发效率以及性能优化。熟悉 **VUE** 技术栈，能够将前端项目的规范与性能再提升一个档次。同时对于其它技术栈也有探索与实践，可根据不同业务需求进行多方位的技术选型。爱好开源，有自己的开源项目，且多次给知名开源库element-ui提交PR。
 
 ---
 
@@ -31,7 +32,7 @@
 ## 武汉小果科技有限公司 （2018年8月 ~ 至今）
 
 ### 森果采购配货系统
-用于服务水果贸易交易中转站业务。有 **对账中心** 、 **采购单**、 **商品库**、 **仓库**、 **供货商**、 **店铺**以及**员工**等主要模块。
+用于服务水果贸易中转站业务。有 **对账中心** 、 **采购单**、 **商品库**、 **仓库**、 **供货商**、 **店铺**以及**员工**等主要模块，使用VUE技术栈开发，UI框架为element ui。
 
 解决了水果这个传统行业对于采购配货流程沟通效率低下，业务繁杂等问题。
 
@@ -44,7 +45,7 @@
 
 ## 上海六感科技有限公司 （2016年9月-2018年8月）
 ### 五菱E100 web商城
-该系统主要服务于五菱E100系列车型以及汽车相关配件售卖，共有**车商城**、**精品商城**、**购物车**、**个人中心**等4大模块。
+该系统主要服务于五菱E100系列车型以及汽车相关配件售卖，共有**车商城**、**精品商城**、**购物车**、**个人中心**等4大模块，使用VUE技术栈开发。
 
 我主要负责项目构建，性能优化，基础组件编写以及购车流程的开发。
 
@@ -70,7 +71,7 @@ E100商城的后台管理系统，用于管理门店信息、用户信息、车�
 地址[https://github.com/Richard-Choooou/image-compress](https://github.com/Richard-Choooou/image-compress)
 
 ## 多玩囧图个人版（微信小程序） 
-线上项目，可搜索体验，平均每月1200累计访问人数。
+线上项目，可搜索体验，平均每月1600累计访问人数。
 
 扫码体验
 
@@ -93,19 +94,14 @@ E100商城的后台管理系统，用于管理门店信息、用户信息、车�
 
 地址[https://www.npmjs.com/package/best-calendar](https://www.npmjs.com/package/best-calendar)
 
-### drag-area
-一个可拖拽定位区域的工具库，类似于淘宝后台的页面定制功能
-
-地址[https://www.npmjs.com/package/drag-area](https://www.npmjs.com/package/drag-area)
-
 
 # 公司技术分享相关讲义
 
-webpack配置从0到1，[点击查看](http://www.zpblogs.com/myBlogs/2018/10/08/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Awebpack%E9%85%8D%E7%BD%AE%E4%BB%8E0%E5%88%B01/#more)
+webpack配置从0到1，[点击查看](http://www.zpblogs.com/myBlogs/2018/10/08/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Awebpack%E9%85%8D%E7%BD%AE%E4%BB%8E0%E5%88%B01/)
 
 es6: promise与async[点击查看](http://www.zpblogs.com/myBlogs/2018/09/26/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Apromise%E4%B8%8Easync/)
 
-es6: Proxy[点击查看](http://www.zpblogs.com/myBlogs/2018/09/26/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9AProxy%E4%B8%8EReflect/#more)
+es6: Proxy[点击查看](http://www.zpblogs.com/myBlogs/2018/09/26/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9AProxy%E4%B8%8EReflect/)
 
 es6: set和map集集合[点击查看](http://www.zpblogs.com/myBlogs/2018/09/25/%E6%A3%AE%E6%9E%9C%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%EF%BC%9Aset%E5%92%8Cmap%E9%9B%86%E9%9B%86%E5%90%88/)
 
