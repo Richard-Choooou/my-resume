@@ -45,6 +45,7 @@
 * mobx
 * electron
 * android(java 语言)
+
 #### 技术细节
 * 编写 js-bridge 实现 web 与原生平台通信，详见[森果收银台jsbridge设计](https://www.zpblogs.com/myBlogs/2021/02/07/%E6%A3%AE%E6%9E%9C%E6%94%B6%E9%93%B6%E5%8F%B0jsbridge%E8%AE%BE%E8%AE%A1)
 * 使用串口通信实现通讯称重量读取，详见[森果收银台-通讯称对接文档](https://www.zpblogs.com/myBlogs/2021/01/20/%E9%80%9A%E8%AE%AF%E7%A7%B0%E5%AF%B9%E6%8E%A5%E6%96%87%E6%A1%A3/)
