@@ -47,7 +47,7 @@
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.9",
-    "webpack-markdown-pdf-plugin": "^0.0.14",
+    "webpack-markdown-pdf-plugin": "^0.0.15",
     "webpack-merge": "^4.1.4"
   }
 }
