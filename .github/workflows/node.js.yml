@@ -13,7 +13,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container: docker.io/centos:7
     strategy:
       matrix:
         node-version: [14.x]
@@ -26,7 +25,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: yum groupinstall "fonts" -y
+    - run: apt-get install ttf-wqy-zenhei 
     - run: npm i
     - run: npm run build
     - run: git config --global user.email "zhoupeng1995@live.com"
