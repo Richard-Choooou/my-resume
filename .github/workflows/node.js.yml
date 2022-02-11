@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: yum groupinstall "fonts"
+    - run: yum groupinstall "fonts" -y
     - run: npm i
     - run: npm run build
     - run: git config --global user.email "zhoupeng1995@live.com"
