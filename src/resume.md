@@ -37,7 +37,7 @@
 # 项目经历
 ## 武汉小果科技有限公司
 ### 森果零售收银台
-森果零售收银台是一个跨 android 以及 windows 平台的称重收银系统，实现商品选取、称重收银、打印、订单管理等功能。早期使用 flutter 进行开发，后期因兼容 windows 平台，重构为 web 开发，并使用 hybrid 技术实现跨平台。
+称重收银系统，实现商品选取、称重收银、打印、订单管理等功能。早期使用 flutter 进行开发，后期因兼容 windows 平台，重构为 web 开发，并使用 hybrid 技术实现跨平台。
 #### 技术选型
 * react
 * typescript
@@ -47,6 +47,7 @@
 * android(java 语言)
 
 #### 技术细节
+* 使用 hybird 技术，使之跨 android、windows 以及 linux 平台运行
 * 编写 js-bridge 实现 web 与原生平台通信，详见[森果收银台jsbridge设计](https://www.zpblogs.com/myBlogs/2021/02/07/%E6%A3%AE%E6%9E%9C%E6%94%B6%E9%93%B6%E5%8F%B0jsbridge%E8%AE%BE%E8%AE%A1)
 * 使用串口通信实现通讯称重量读取，详见[森果收银台-通讯称对接文档](https://www.zpblogs.com/myBlogs/2021/01/20/%E9%80%9A%E8%AE%AF%E7%A7%B0%E5%AF%B9%E6%8E%A5%E6%96%87%E6%A1%A3/)
 * 使用 usb 通信实现打印功能，详见[森果收银台-打印机对接文档](https://www.zpblogs.com/myBlogs/2021/01/22/%E6%A3%AE%E6%9E%9C%E6%94%B6%E9%93%B6%E5%8F%B0-%E6%89%93%E5%8D%B0%E6%9C%BA%E5%AF%B9%E6%8E%A5%E6%96%87%E6%A1%A3/)
