@@ -29,7 +29,7 @@ const webpackDemoConfig = merge(webpackDevConfig, {
         }),
         new WebpackMarkdownToPdfPlugin({
             filename: './pdf/[name].pdf',
-            paperBorder: '0.8cm',
+            paperBorder: '2cm',
             paperFormat: 'A3',
             preProcessHtml: function() {
                 let isBegin = true
