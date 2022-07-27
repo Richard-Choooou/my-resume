@@ -1,4 +1,4 @@
 // import $ from 'jquery'
 import resumeMd from './resume.md'
 
-$('#markdownContainer').html(resumeMd)
+document.getElementById("markdownContainer").innerHTML = resumeMd
