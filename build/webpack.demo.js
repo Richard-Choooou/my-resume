@@ -10,7 +10,7 @@ const through2 = require('through2')
 const webpackDemoConfig = merge(webpackDevConfig, {
     entry: path.resolve(config.srcPath, 'index.js'),
     output: {
-        filename: 'js/index.js',
+        filename: 'js/index.[hash:8].js',
         path: path.resolve(config.basePath, './docs'),
         publicPath: 'https://cdn.jsdelivr.net/gh/richard-choooou/my-resume/docs/'
     },
