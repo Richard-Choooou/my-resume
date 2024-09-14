@@ -3,6 +3,9 @@ const config  = require('./config')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const ENV = process.env.NODE_ENV
 
+path.resolve(process.cwd(), '../fonts', 'fonts.conf')
+path.resolve(process.cwd(), '../fonts', 'pingfang.ttf')
+
 module.exports = {
     entry: path.resolve(config.basePath, 'src/index.js'),
 
