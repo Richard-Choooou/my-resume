@@ -39,8 +39,8 @@
     "html-webpack-plugin": "^3.2.0",
     "markdown-loader": "^4.0.0",
     "markdown-pdf": "^9.0.0",
-    "sass": "^1.54.0",
     "progress-bar-webpack-plugin": "^1.11.0",
+    "sass": "^1.54.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "url-loader": "^1.1.1",
@@ -49,5 +49,8 @@
     "webpack-dev-server": "^3.1.9",
     "webpack-markdown-pdf-plugin": "^0.0.15",
     "webpack-merge": "^4.1.4"
+  },
+  "engines": {
+    "node": "16.14.2"
   }
 }
